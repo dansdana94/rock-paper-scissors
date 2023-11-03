@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+#buttons{
+    display: flex;
+    gap: 12px ;
+    margin-left: 200px;
+    size: 40px;s
+    margin-right: 200px;
+
+}
+#display{
+    margin-left: 200px;
+    font: 1em sans-serif;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    margin-right: 200px;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 25px;
+}
+#inpdiv{
+    border: 2px solid white;
+}
+#resultdiv {
+    border: 2px solid white;
+}
